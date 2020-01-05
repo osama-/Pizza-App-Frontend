@@ -1,0 +1,10 @@
+export const FETCH_PIZZA = "FETCH_PIZZA";
+export const ADD_PIZZA = "ADD_PIZZA";
+export const REMOVE_PIZZA = "REMOVE_PIZZA";
+export const INCREASE_QUANTITY = "INCREASE_QUANTITY";
+export const DECREASE_QUANTITY = "DECREASE_QUANTITY";
+export const CHANGE_CURRENCY = "CHANGE_CURRENCY";
+export const CLEAR_ORDER = "CLEAR_ORDER";
+export const SET_TOKEN = "SET_TOKEN";
+export const UPDATE_DELIVERY_CHARGES = "UPDATE_DELIVERY_CHARGES";
+export const API_URL = "http://ancient-caverns-06550.herokuapp.com/api";

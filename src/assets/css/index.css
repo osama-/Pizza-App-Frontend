@@ -1,0 +1,21 @@
+.page-wrapper{
+  padding: 1rem 0;
+}
+.logo img{
+  max-width: 60px;
+}
+.section-title{
+  padding: .5rem;
+  background-color: #006491;
+  color: #fff;
+  margin-bottom: .5rem;
+  text-transform: uppercase;
+}
+.modal.show-modal{
+  display: block!important;
+  background-color: rgba(0,0,0,0.5);
+}
+.nav-item.currency{
+  align-items: center;
+  display: flex;
+}

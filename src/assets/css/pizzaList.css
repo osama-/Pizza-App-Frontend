@@ -1,0 +1,26 @@
+.pizza-list .card-img-top{
+    max-width: 150px;
+    margin: .5rem auto 0 auto;
+}
+.pizza-list .card-text{
+    font-size: .8rem;
+    line-height: 1rem;
+}
+
+.pizza-list .card-body{
+    padding-bottom: 4rem;
+    position: relative;
+}
+.pizza-list .price{
+    position: absolute;
+    bottom: 2rem;
+    left: 1.25rem;
+    right: 1.25rem;
+    font-weight: bold;
+}
+.pizza-list .actions{
+    position: absolute;
+    bottom: .5rem;
+    left: 1.25rem;
+    right: 1.25rem;
+}

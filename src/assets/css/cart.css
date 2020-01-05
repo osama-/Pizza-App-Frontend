@@ -1,0 +1,60 @@
+.cart .item{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.cart .item + .item{
+    margin-top: 1rem;
+}
+.cart .image{
+    flex-basis: 20%;
+    padding-right: .5rem;
+}
+.cart .title{
+    flex-basis: 20%;
+    font-size: .7rem;
+    line-height: .8rem;
+    font-weight: bold;
+    text-align: left;
+}
+.cart .price{
+    flex-basis: 20%;
+    font-size: .7rem;
+    line-height: .8rem;
+    font-weight: bold;
+}
+.cart .actions{
+    flex-basis: 35%;
+}
+.cart .delete{
+    flex-basis: 5%;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cart .item img{
+    max-width: 100%;
+}
+.cart .actions{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0 .8rem;
+}
+.cart .actions span{
+    flex: 1;
+}
+.cart .actions .plus, .cart .actions .minus{
+    border-radius: 5px;
+    background-color: #eee;
+    cursor: pointer;
+}
+.cart .total{
+    font-size: 1.5rem;
+    background-color: #066391;
+    text-align: right;
+    padding: 0 0.5rem;
+    color: #fff;
+}
